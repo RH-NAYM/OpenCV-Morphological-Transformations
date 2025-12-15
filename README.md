@@ -1,6 +1,6 @@
 # 🖼️ Comprehensive Image Thresholding in OpenCV
 ---
-[![dev branch](https://img.shields.io/badge/branch-dev-red?style=flat&logo=git&logoColor=white)](https://github.com/RH-NAYM/OpenCV-Image-Thresholding/tree/dev)
+[![main branch](https://img.shields.io/badge/branch-main-red?style=flat&logo=git&logoColor=white)](https://github.com/RH-NAYM/OpenCV-Image-Thresholding/tree/main)
 #
 
 <p align="center">
