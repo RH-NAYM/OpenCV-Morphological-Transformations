@@ -27,24 +27,24 @@
 This project provides a comprehensive, practical exploration of Morphological Transformations using `OpenCV` in Python.
 Morphological operations are a core building block in computer vision pipelines, especially for `noise removal`, `shape refinement`, `gap filling`, and `structural analysis` of binary and grayscale `images`.
 
-They are most commonly used after thresholding and before contour detection, OCR, or object segmentation.
+They are most commonly used after `thresholding` and before contour detection, OCR, or object segmentation.
 
 ---
 
 The `Jupyter Notebook` demonstrates key morphological operations including:
-- Erosion
-- Dilation
-- Opening
-- Closing
-- Morphological Gradient
-- Top Hat
-- Black Hat
+- `Erosion`
+- `Dilation`
+- `Opening`
+- `Closing`
+- `Morphological Gradient`
+- `Top Hat`
+- `Black Hat`
 
 Each operation includes:
 - Mathematical intuition and visual explanation.
 - Practical OpenCV implementations.
-- Step-by-step visualizations using Matplotlib.
-- Real-world preprocessing strategies for OCR, document detection, and segmentation.
+- Step-by-step visualizations using `Matplotlib`.
+- Real-world preprocessing strategies for `OCR`, `document detection`, and `segmentation`.
 
 `Whether you are learning image morphology for the first time or building production CV pipelines, this repository serves as a solid reference and reusable toolkit.`
 
@@ -65,7 +65,7 @@ Each operation includes:
 ---
 ```bash
 1. Introduction to Morphological Image Processing
-2. Structuring Elements (Kernels)
+2. Structuring Elements (KerneLs)
 3. Erosion
 4. Dilation
 5. Opening (Erosion → Dilation)
@@ -87,7 +87,7 @@ Each operation includes:
 - **Morphological Gradient:** Extract object boundaries.
 - **Top Hat:** Highlight small bright regions on dark backgrounds.
 - **Black Hat:** Highlight small dark regions on bright backgrounds.
-- **Kernel Engineering:** Choosing kernel size and shape (`RECT`, `ELLIPSE`) for different tasks.
+- **Kernel Engineering:** Choosing `kernel` size and shape (`RECT`, `ELLIPSE`) for different tasks.
 - **Pipeline Design:** How morphology fits into OCR, document detection, and segmentation workflows.
 
 # 🛠️ Technologies Used
@@ -127,22 +127,22 @@ pip install -r requirements.txt
 
 # ✅ Summary
 ---
-- Morphological transformations are essential for cleaning and refining binary images.
+- Morphological transformations are essential for cleaning and refining `binary` images.
 - They significantly improve results for `OCR`, `contour detection`, and `segmentation`.
-- Kernel size and shape directly affect output quality.
-- Combining thresholding + morphology yields robust preprocessing pipelines.
+- `Kernel` size and shape directly affect output quality.
+- Combining `thresholding` + `morphology` yields robust preprocessing pipelines.
 - The notebook provides a reusable framework for both learning and production use.
 
 
 
 # 🍴 Real-World Applications
 ---
-- **OCR Preprocessing:** Clean text regions before recognition.
-- **Document Detection:** Close gaps and extract document boundaries.
-- **Industrial Vision:** Remove noise and isolate objects.
-- **Medical Imaging:** Refine segmented regions.
-- **Satellite & Aerial Imagery:** Enhance terrain or structure masks.
-- **Retail Analytics:** Shelf, POSM, and planogram segmentation.
+- **OCR Preprocessing:** `Clean text` regions before recognition.
+- **Document Detection:** Close gaps and `extract document` boundaries.
+- **Industrial Vision:** `Remove noise` and `isolate objects`.
+- **Medical Imaging:** `Refine` `segmented` `regions`.
+- **Satellite & Aerial Imagery:** `Enhance terrain` or `structure masks`.
+- **Retail Analytics:** `Shelf`, `POSM`, and `planogram segmentation`.
 
 # 📝 Contribution
 `Feel free to open an issue or submit a pull request to improve examples, add kernel experiments, or extend the morphological pipelines.`
