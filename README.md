@@ -1,6 +1,6 @@
 # 💡 Morphological Transformations in OpenCV (Python Tutorial)
 ---
-[![dev branch](https://img.shields.io/badge/branch-dev-red?style=flat&logo=git&logoColor=white)](https://github.com/RH-NAYM/OpenCV-Image-Thresholding/tree/dev)
+[![dev branch](https://img.shields.io/badge/branch-dev-red?style=flat&logo=git&logoColor=white)](https://github.com/RH-NAYM/OpenCV-Morphological-Transformations/tree/dev)
 #
 
 <p align="center">
